@@ -7,12 +7,23 @@ package edu.eci.arsw.threads;
 
 /**
  *
- * @author hcadavid
+ * @author Carlos Orduz - Laura Alvarado
  */
 public class CountThreadsMain {
     
     public static void main(String a[]){
-        
+        //First thread
+        Thread t1 = new Thread(new CountThread(0,99));
+        //Second Thread
+        Thread t2 = new Thread(new CountThread(99,199));
+        //Third Thread
+        Thread t3 = new Thread(new CountThread(200,299));
+
+        //Start Cycle
+        t1.start();
+        t2.start();
+        t3.start();
+
     }
     
 }
