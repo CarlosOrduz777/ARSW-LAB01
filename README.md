@@ -11,6 +11,8 @@
 
 **De acuerdo con lo revisado en las lecturas, complete las clases CountThread, para que las mismas definan el ciclo de vida de un hilo que imprima por pantalla los números entre A y B.**
 
+![](https://github.com/CarlosOrduz777/ARSW-LAB01/blob/master/img/counterClass.PNG)
+
 Complete el método main de la clase CountMainThreads para que:
 
    1. Cree 3 hilos de tipo CountThread, asignándole al primero el intervalo [0..99], al segundo [99..199], y al tercero [200..299].
