@@ -19,6 +19,12 @@ public class CountThreadsMain {
         //Third Thread
         Thread t3 = new Thread(new CountThread(200,299));
 
+        /**
+         * t1.start();
+         * t2.start();
+         * t3.start();
+         */
+
         //Start Cycle
         t1.run();
         t2.run();
